@@ -1,4 +1,7 @@
-class Person:
+from viewing_party.movie import Movie
+
+
+class Person(Movie):
     
     def __init__(self,name,watched,subscriptions):
         self.name = name
@@ -14,5 +17,7 @@ class Person:
     
     def add_friends(self,friend):
         self.friends.append(friend)
+    
+
 
     
